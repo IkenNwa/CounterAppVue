@@ -14,7 +14,10 @@ const store = createStore({
     },
     decrement(state) {
       if(state.count === 0) {
-        state.warning = "Default Value is '0', you can't go beyond this"
+        state.warning = "You can't go below the Default Value '0'."
+        setTimeout(() => {
+            state.warning = null
+        }, 5000);
       }else{
         state.count--
       }
