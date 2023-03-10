@@ -9,5 +9,5 @@ import OperatorsBlock from './components/OperatorsBlock.vue';
 </template>
 
 <style scoped>
-
+  
 </style>

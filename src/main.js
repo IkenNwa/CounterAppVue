@@ -17,7 +17,10 @@ const store = createStore({
     reset(state) {
       state.count = 0
     },
-    
+    change(state,inputVal) {
+        state.count = inputVal
+    }
+
   }
 })
 
