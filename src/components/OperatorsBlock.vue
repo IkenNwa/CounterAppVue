@@ -20,7 +20,6 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 40vw;
     gap: 4px;
 }
 .double{
