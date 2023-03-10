@@ -5,20 +5,27 @@
 
 </script>
 <template>
-    <!-- <input v-for="operand in operators" :key="operand.id" :value="operand.operation" :type="operand.type"
-        :class="operand.operation" @click="$store.commit(operand.operate)" /> -->
+    <div class="grid">
         <input type="button" value="Increment" @click="$store.commit('increment')" />
         <input type="button" value="Decrement" @click="$store.commit('decrement')" />
-        <input type="button" value="Reset" @click="$store.commit('reset')" />
+        <input type="button" value="Reset" @click="$store.commit('reset')" class="double" />
         <input type="number" @change="(e) => {
             $store.commit('change', e.target.value)
-        }" />
-        
+        }" class="double" />
+    </div>
 </template>
 
 <style scoped>
-    input{
-        padding: 10px;
-        width: 100%;
-    }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.double{
+    grid-column: 1/-1;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+}
 </style>
