@@ -1,12 +1,11 @@
 <script setup>
-import Operators from "./components/OperatorsBlock.vue"
-
+import CounterView from './components/CounterView.vue'
+import OperatorsBlock from './components/OperatorsBlock.vue';
 </script>
 
 <template>
-  <div>
-    <Operators />
-  </div>
+    <CounterView />
+    <OperatorsBlock />
 </template>
 
 <style scoped>

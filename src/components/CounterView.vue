@@ -1,6 +1,5 @@
 <script>
-
 </script>
 <template>
-    <button>Decrement</button>
+    <h1>{{ $store.state.count }}</h1>
 </template>

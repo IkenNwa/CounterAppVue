@@ -1,12 +1,12 @@
 <script setup>
-import Increment from "./Operators/IncrementBtn.vue"
-import Decrement from "./Operators/DecrementBtn.vue"
-import Reset from './Operators/ResetBtn.vue'
-import SetValue from './Operators/SetValueBtn.vue'
+import { operators } from '../assets/operators';
+
+
+
 </script>
 <template>
-    <Increment />
-    <Decrement />
-    <Reset />
-    <SetValue />
+    <input v-for="operand in operators" :key="operand.id" :value="operand.operation" :type="operand.type"
+        :class="operand.operation" @click="$store.commit(operand.operate)" />
 </template>
+
+<style scoped></style>
