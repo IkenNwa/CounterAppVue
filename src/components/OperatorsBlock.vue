@@ -11,6 +11,7 @@
         <input type="button" value="Reset" @click="$store.commit('reset')" class="double" />
         <input type="number" @change="(e) => {
             $store.commit('change', e.target.value)
+            e.target.value = ''
         }" class="double" />
     </div>
 </template>
@@ -19,6 +20,7 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 40vw;
 }
 .double{
     grid-column: 1/-1;
