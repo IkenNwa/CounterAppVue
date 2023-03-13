@@ -1,7 +1,6 @@
 <script setup>
 
-// import CounterApp from "./views/CounterApp.vue"
-// import AboutComp from "./components/AboutComp.vue"
+
 import HomeComp from "./components/HomeComp.vue"
 </script>
 
@@ -9,9 +8,6 @@ import HomeComp from "./components/HomeComp.vue"
   <div class="main">
     <HomeComp />
     <div class="routes">
-      <!-- <CounterApp /> -->
-      <!-- <AboutComp /> -->
-      <WelcomePage />
       <RouterView />
     </div>
   </div>
