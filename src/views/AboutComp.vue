@@ -6,8 +6,8 @@
             This is a VueJs Project that uses Vuex to manage Global State that will be avaiilable to all the components in
             the
             project.<br>
-            Your last Operation was <span>{{ $store.state.lastOperand }}Increase</span> with a Value of <span>{{
-                $store.state.lastInput }}24</span><br>
+            Your last Operation was <span>{{ $store.state.lastOperand }}</span> with a Value of <span>{{
+                $store.state.lastInput }}</span><br>
             The Home Page Shows a Welcome Screen<br>
             The About Page is this Page<br>
             The Counter Page is the Main aim of this Project with Increment, Decrement, Reset, and an Input to Automatically
@@ -24,4 +24,5 @@ span {
 
 h1 {
     margin-block: 15px;
-}</style>
+}
+</style>
