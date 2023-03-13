@@ -1,8 +1,4 @@
-<script setup>
-// import { operators } from '../assets/operators';
-
-
-
+<script>
 </script>
 <template>
     <div class="grid">

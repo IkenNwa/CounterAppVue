@@ -6,10 +6,9 @@
         <img src="../../public/favicon.svg" alt="Img">
         <h2>Vuex Counter App</h2>
         <ul class="list">
-            <li>Home</li>
-            <li>About</li>
-            <li>Counter</li>
-            <li>More</li>
+            <RouterLink to="/" >Home</RouterLink>
+            <RouterLink to="/about" >About</RouterLink>
+            <RouterLink to="/counter">Counter</RouterLink>
         </ul>
     </div>
 </template>
@@ -54,5 +53,6 @@ li {
     margin-inline: 5px;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: lighter;
 }
 </style>

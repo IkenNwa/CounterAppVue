@@ -3,7 +3,6 @@
 // import CounterApp from "./views/CounterApp.vue"
 // import AboutComp from "./components/AboutComp.vue"
 import HomeComp from "./components/HomeComp.vue"
-import WelcomePage from "./components/WelcomePage.vue";
 </script>
 
 <template>
@@ -13,6 +12,7 @@ import WelcomePage from "./components/WelcomePage.vue";
       <!-- <CounterApp /> -->
       <!-- <AboutComp /> -->
       <WelcomePage />
+      <RouterView />
     </div>
   </div>
 </template>
