@@ -6,9 +6,9 @@
 </script>
 <template>
     <div class="grid">
-        <input type="button" value="Increment" @click="$store.commit('increment')" />
-        <input type="button" value="Decrement" @click="$store.commit('decrement')" />
-        <input type="button" value="Reset" @click="$store.commit('reset')" class="double" />
+        <button @click="$store.commit('increment')" >Increment</button>
+        <button @click="$store.commit('decrement')" >Decrement</button>
+        <button @click="$store.commit('reset')" class="double" >Reset</button>
         <input type="number" @change="(e) => {
             $store.commit('change', e.target.value)
             e.target.value = null
@@ -20,17 +20,21 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4px;
+    gap: 10px;
 }
 .double{
     grid-column: 1/-1;
 }
 
-input {
+input, button {
     padding: 10px;
     width: 100%;
     border: 3px solid #1efc1e;
     border-radius: 5px;
     color: white;
+}
+button:hover{
+    background-color: #1efc1e;
+    color: #151615;
 }
 </style>

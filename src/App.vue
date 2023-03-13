@@ -1,21 +1,45 @@
 <script setup>
-import CounterView from './components/CounterView.vue'
-import OperatorsBlock from './components/OperatorsBlock.vue';
+
+// import CounterApp from "./views/CounterApp.vue"
+// import AboutComp from "./components/AboutComp.vue"
+import HomeComp from "./components/HomeComp.vue"
+import WelcomePage from "./components/WelcomePage.vue";
 </script>
 
 <template>
-  <div class="template">
-    <CounterView />
-    <OperatorsBlock /></div>
+  <div class="main">
+    <HomeComp />
+    <div class="routes">
+      <!-- <CounterApp /> -->
+      <!-- <AboutComp /> -->
+      <WelcomePage />
+    </div>
+  </div>
 </template>
 
 <style scoped>
-  .template{
-    display: flex;
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.routes{
+  padding: 3em;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+}
+
+@media (width< 770px) {
+  .main{
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
     align-items: center;
-    justify-content: center;
   }
+  .routes{
+    height: 70vh;
+    width: 100%;
+    padding: 2em;
+  }
+}
 </style>

@@ -15,5 +15,6 @@
         font-size: 10px;
         padding: 10px;
         color: #ff0000;
+        text-align: center;
     }
 </style>

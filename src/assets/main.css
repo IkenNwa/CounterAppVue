@@ -3,5 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #1e1f1e;
+  background-color: #151615;
+  color: white;
+}
+
+::selection{
+  background-color: #1efc1e;
+  color: #151615;
 }
