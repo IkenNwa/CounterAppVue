@@ -12,7 +12,8 @@
             The About Page is this Page<br>
             The Counter Page is the Main aim of this Project with Increment, Decrement, Reset, and an Input to Automatically
             change the count number<br>
-            As you can see on this page the Global state is reflected as the Button clicked is updated by it.
+            As you can see on this page the Global state is reflected as the Button clicked is updated by it.<br>
+            The More links to a custom 404 page.
         </article>
     </section>
 </template>
