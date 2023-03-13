@@ -5,7 +5,7 @@
     <p v-if="$store.state.warning">{{ $store.state.warning }}</p>
 </template>
 
-<style>
+<style scoped>
     h1{
         font-size: 100px;
         color: white;

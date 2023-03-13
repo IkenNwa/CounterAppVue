@@ -6,9 +6,10 @@
         <img src="../../public/favicon.svg" alt="Img">
         <h2>Vuex Counter App</h2>
         <ul class="list">
-            <RouterLink to="/">Home</RouterLink>
-            <RouterLink to="/about">About</RouterLink>
-            <RouterLink to="/counter">Counter</RouterLink>
+            <li><RouterLink to="/">Home</RouterLink></li>
+            <li><RouterLink to="/about">About</RouterLink></li>
+            <li><RouterLink to="/counter">Counter</RouterLink></li>
+            <li><RouterLink to="/more">More</RouterLink></li>
         </ul>
     </div>
 </template>
