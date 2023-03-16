@@ -1,8 +1,12 @@
-<script>
+<script setup>
+    import { useCount } from '../composables/composable';
+    
+    const {count, warning} = useCount()
+
 </script>
 <template>
-    <h1>{{ $store.state.count }}</h1>
-    <p v-if="$store.state.warning">{{ $store.state.warning }}</p>
+    <h1>{{ count }}</h1>
+    <p v-if="warning">{{ warning }}</p>
 </template>
 
 <style scoped>
