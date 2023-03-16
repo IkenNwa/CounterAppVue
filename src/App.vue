@@ -18,7 +18,8 @@ import HomeComp from "./components/HomeComp.vue"
   display: flex;
   flex-direction: row;
 }
-.routes{
+
+.routes {
   padding: 3em;
   height: 100vh;
   display: flex;
@@ -28,11 +29,12 @@ import HomeComp from "./components/HomeComp.vue"
 }
 
 @media (width< 770px) {
-  .main{
+  .main {
     flex-direction: column;
     align-items: center;
   }
-  .routes{
+
+  .routes {
     height: 70vh;
     width: 100%;
     padding: 2em;

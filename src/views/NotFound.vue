@@ -7,12 +7,13 @@
 </template>
 
 <style scoped>
-    img{
-        width: 50%;
+img {
+    width: 50%;
+}
+
+@media (width < 770px) {
+    img {
+        width: 100%;
     }
-    @media (width < 770px) {
-        img{
-            width: 100%;
-        }
-    }
+}
 </style>

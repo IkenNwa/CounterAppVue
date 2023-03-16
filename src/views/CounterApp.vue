@@ -12,7 +12,7 @@ import OperatorsBlock from "../components/OperatorsBlock.vue"
 </template>
 
 <style scoped>
-.template{
+.template {
     display: flex;
     flex-direction: column;
     height: max-content;

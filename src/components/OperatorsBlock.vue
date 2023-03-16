@@ -1,7 +1,12 @@
 <script setup>
 import { useOperation } from '../composables/composable';
 
-const { increment, decrement, reset, change } = useOperation()
+const {
+    increment,
+    decrement,
+    reset,
+    change
+} = useOperation()
 </script>
 <template>
     <div class="grid">
@@ -40,4 +45,5 @@ button:hover {
 
 button:active {
     background-color: #1efc1e;
-}</style>
+}
+</style>
