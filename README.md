@@ -1,35 +1,31 @@
-# countervueapp
+# COUNTER COMPOSABLE APP WITH VUEX
 
-This template should help get you started developing with Vue 3 in Vite.
+## UI Colors
+      #1efc1e
+      #151615
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## PROJECT OUTLINE 
+    State is Managed with Vuex globally through out the Project
+    The Project uses composables to return the state value into the various components it is needed.
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## VIEWERS OUTLINE
+    The App redirects on load to "/counter"
+    On hover of the buttons a #1efc1e border shows
+    On Click the Operation is run according to the text on the button 
+    The About and More Links to the 404 page as well as any other path put in the URL except for '/counter'.
+    The Home Redirects you to the '/counter' path.
 
-## Project Setup
 
-```sh
-npm install
-```
+## EXAM QUESTION --- 2
+    Create a new vue js application using the cli then setup a counter composable with increment, decrement, reset, setValue functions with a valid UI. You can use local state or vuex for state management albeit using vuex will attract higher marks. Make sure to house your functionality in a page with route - ‘/counter’ any other route should redirect the user to a 404 page handled by your wildcard route.
 
-### Compile and Hot-Reload for Development
+## SUBMISSION GUIDELINES
+    ### How to Submit:
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+        Create a new repository for your project on GitHub
+        Invite me as a collaborator, GitHub username (@iykeevans). 
+        Fill this form: AltSchool of FrontEnd Engineering 3rd Semester Exam Submission
+        Put the hosted link (Netlify, Vercel and Firebase are the only accepted links) on the GitHub repo link below the description of the project and put the same link in the README of the project.
